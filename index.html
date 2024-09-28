@@ -11,13 +11,21 @@
         <h3>Math game</h3>
         <form>
             <div>
-                <output id="num1"></output> +
+                <output id="num1"></output> + 
                 <output id="num2"></output> =
-                <input type=""number
+                <input type="number" />
+            </div>
+            <div>
+                <button type="button" id="calculate">Answer</button>
             </div>
         </form>
+        <div id="answers">
+            <p>Correct answers: <span id="correct-count">0</span></p>
+            <p>Incorrect answers: <span id="incorrect-count">0</span></p>
+        </div>
 
     </div>
+    <script src="./js/functions.js"></script>
     
 </body>
 </html>
